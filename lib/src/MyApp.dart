@@ -1,13 +1,16 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+
 import '../main.dart';
+import 'login_views/LoginView.dart';
 
 class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+
+    /*return MaterialApp(
       title: 'Flutter Chat',
       home: Scaffold(
         appBar: AppBar(
@@ -22,6 +25,13 @@ class MyApp extends StatelessWidget {
               children: [Text("Hola chat")],
             ),
           )),
+    );*/
+
+    MaterialApp materialApp = MaterialApp(title: "Flutter Chat",
+    home: LoginView(),
     );
+
+return materialApp;
+
   }
 }
