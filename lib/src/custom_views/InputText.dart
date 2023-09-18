@@ -30,7 +30,7 @@ class InputText extends StatelessWidget {
         labelStyle: TextStyle(
             color: Color(0xFF6200EE)
         ),
-        suffix: Icon(
+        suffixIcon: Icon(
       Icons.check_circle,
         ),
         enabledBorder: UnderlineInputBorder(

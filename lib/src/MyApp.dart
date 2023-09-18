@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 
 import '../main.dart';
 import 'login_views/LoginView.dart';
+import 'login_views/RegisterView.dart';
 
 class MyApp extends StatelessWidget {
 
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
     );*/
 
     MaterialApp materialApp = MaterialApp(title: "Flutter Chat",
-    home: LoginView(),
+    home: RegisterView(),
     );
 
 return materialApp;
